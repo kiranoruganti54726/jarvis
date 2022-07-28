@@ -194,7 +194,7 @@ if __name__ == "__main__":
              pywhatkit.sendwhatmsg("+919652261371","hello i am jarvis this message is sent by my boss from pycharms code",11,57)
 
 
-         elif "play music" in query or "hit some music" in query:
+         elif "music" in query or "hit some music" in query:
              speak("playing music")
              music_dir_path = "C:\\Users\\kiran\\Music\\music folder"
              songs = os.listdir(music_dir_path)  # converting songs into list
@@ -221,7 +221,7 @@ if __name__ == "__main__":
              print(info)
              speak(info)
 
-
+#<-----------------------playing in youtube using pywhatkit------------------------>
          elif "play" in query:
              query=query.replace('play','')#empty string replaces play
              #if i say play saranga dariya then system takes only saranga dariya.''(in this empty string saranga dariya will be stored)
@@ -363,27 +363,27 @@ if __name__ == "__main__":
 
    #<----------------------------------PLAYING MOVIE SCENES USING JARVIS-------------------------------->
 
-         elif"play vijay sethupathi Entry from vikram" in query or "vijay sethupathi in vikram" in query or "vijay sethupathi from vikram" in query:
+         elif"vijay sethupathi entry from vikram" in query or "vijay sethupathi in vikram" in query or "vijay sethupathi from vikram" in query:
              speak("okay..")
              from santhanam_vikram import *
 
-         elif "play radheshyam train scene" in query or "radheshyam train scene" in query:
+         elif "radheshyam train scene" in query or "radheshyam train" in query:
              speak("okay..")
              from radheshyam import *
 
-         elif "play agent tina from vikram" in query or "agent tina from vikram" in query:
+         elif "agent tina" in query or "agent tina from vikram" in query:
              speak("okay..")
              from agent_tina import *
 
-         elif "play vikram interval scene" in query or "vikram interval scene" in query:
+         elif "vikram interval scene" in query or "vikram interval scene" in query:
              speak("okay..")
              from vikram_interval import *
 
-         elif "play rrr trailer cut" in query or "triple r trailer cur" in query:
+         elif "rrr trailer cut" in query or "triple r trailer cur" in query:
              speak("okay..")
              from rrr_trailercut import *
 
-         elif "play vikram movie ending scene" in query or "play vikram movie ending scene" in query:
+         elif "vikram movie ending scene" in query or "play vikram movie ending scene" in query:
              speak("okay..")
              from suryarolex import *
 
