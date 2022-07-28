@@ -402,4 +402,9 @@ if __name__ == "__main__":
          elif "sleep" in query or "jarvis sleep" in query:
              speak("bye")
              break
+            
+            
+            
+            #abcd
+            
 
